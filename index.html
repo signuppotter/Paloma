@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore our collection of premium beverages including coffee, tequila, and drink mixes" />
+    <meta name="theme-color" content="#000000" />
+    <title>Senor - Premium Beverages Collection</title>
+    <!-- Preconnect to improve loading performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <!-- Preload critical assets -->
+    <link rel="preload" href="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/night2560.webp" as="image" />
+    <link rel="preload" href="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/Senor%20Logo%20(2).svg" as="image" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <main class="image-container" aria-label="Interactive product showcase">
+        <!-- Background images -->
+        <img id="night-image" src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/night2560.webp" alt="Scenic beach view during nighttime" loading="eager" />
+        <img id="day-image" src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/day2560.webp" alt="Scenic beach view during daytime" loading="eager" />
+        
+        <!-- Decorative elements -->
+        <img id="palm-left" class="palm-tree" src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/FINAL%20SENOR%20BG%20LEFT%20PALM.webp" alt="" role="presentation" loading="lazy" />
+        <img id="palm-right" class="palm-tree" src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/FINAL%20SENOR%20BG%20RIGHT%20PALM.webp" alt="" role="presentation" loading="lazy" />
+        
+        <!-- Logo -->
+        <img id="logo-image" src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/Senor%20Logo%20(2).svg" alt="Senor Logo" loading="eager" />
+        
+        <!-- Content -->
+        <div class="content-wrapper">
+            <h1 id="explore-text">Explore Our Collection</h1>
+            <div class="categories-wrapper" role="list">
+                <!-- Product categories -->
+                <div class="category-container" role="listitem">
+                    <img src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/a-hand-drawn-symmetrical-front-view-aztec-style-to%20(3)%20(1).webp" alt="Artisan Coffee Category" loading="lazy">
+                    <span class="category-label">Coffee</span>
+                </div>
+                <div class="category-container" role="listitem">
+                    <img src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/a-hand-drawn-symmetrical-front-view-aztec-style-to%20(3)%20(1).webp" alt="Premium Drink Mix Category" loading="lazy">
+                    <span class="category-label">Drink Mix</span>
+                </div>
+                <div class="category-container" role="listitem">
+                    <img src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/a-hand-drawn-symmetrical-front-view-aztec-style-to%20(3)%20(1).webp" alt="Premium Tequila Category" loading="lazy">
+                    <span class="category-label">Tequila</span>
+                </div>
+                <div class="category-container" role="listitem">
+                    <img src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/a-hand-drawn-symmetrical-front-view-aztec-style-to%20(3)%20(1).webp" alt="Cocktail Rimmers Category" loading="lazy">
+                    <span class="category-label">Rimmers</span>
+                </div>
+                <div class="category-container" role="listitem">
+                    <img src="https://raw.githubusercontent.com/signuppotter/test2/refs/heads/main/a-hand-drawn-symmetrical-front-view-aztec-style-to%20(3)%20(1).webp" alt="Artisanal Hot Sauce Category" loading="lazy">
+                    <span class="category-label">Hot Sauce</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="index.js" defer></script>
+</body>
+</html>
